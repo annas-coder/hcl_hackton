@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import bodyParser from "body-parser";
 import { config } from "dotenv";
 import { db_connection } from "./config/db.js";
 import authRoute from "./routes/authRoutes.js"
